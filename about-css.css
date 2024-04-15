@@ -23,3 +23,12 @@ html {
     border: #000 1px solid;
     padding: 1em;
 }
+/* --- end of Grid Fractions --- */
+
+/* --- end of Main Body Container -- */
+
+
+h1 {
+    color: red;
+    font-size:xx-large;
+}
