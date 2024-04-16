@@ -3,7 +3,7 @@
 html {
     margin: 0;
     padding: 0;
-    background-color: navy;
+    background-color: rgb(40, 86, 138);
 
 }
 /* end of default CSS*/
@@ -17,7 +17,7 @@ html {
 }
 
 .grid30-70 > div {
-    background-color:gold;
+    background-color:rgb(255, 237, 134);
     padding: 1em;
     border: brown 2px dashed;
 
