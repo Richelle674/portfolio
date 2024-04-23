@@ -40,3 +40,45 @@ padding: 1em;
 
 /* ---- Default CSS -- */
 
+/* --- Header --- */
+
+/* --- Navigation --- */
+nav {
+    background-color: purple;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1em;
+}
+
+nav > div {
+    background-color: coral;
+}
+
+.menu {
+    background-color: darkslategray;
+    padding: 1em;
+}
+
+.menu li {
+    display: inline;
+    list-style-type: none;
+    background-color: aliceblue;
+}
+
+/* --- End of Nav --- */
+
+/* --- End of Header --- */
+
+/* --- Main --- */
+main {
+    background-color: yellow;
+}
+
+/* ---  End of Main--- */
+
+/* --- Footer --- */
+footer {
+    background-color: blue;
+}
+/* --- End of Footer--- */
