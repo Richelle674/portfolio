@@ -5,6 +5,10 @@
 /* --- Header --- */
 
 /* --- Navigation --- */
+html {
+    background-color: rgb(40, 86, 138) ;
+    height: 100em;
+}
 nav {
     background-color: purple;
     margin: 0px;
