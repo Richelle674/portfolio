@@ -15,10 +15,11 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+
 }
 
 nav > div {
-    background-color: coral;
+    background-color: rgb(40, 86, 138);
 }
 
 .menu {
@@ -30,6 +31,10 @@ nav > div {
     display: inline;
     list-style-type: none;
     background-color: aliceblue;
+}
+
+.logo {
+float:inline-end;
 }
 
 /* --- End of Nav --- */
@@ -82,7 +87,7 @@ h2 {
     text-align: center;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-    background-color: rgba(42, 55, 126, 0.596);
+    background-color: rgba(31, 57, 206, 0.596);
     padding: 10px;
     border-radius: 5px;
 }
