@@ -39,7 +39,7 @@ html {
     display: flex;
     justify-content: start;
     align-items: center;
-    border-bottom: 0.5rem dashed #673D0D;
+    border-bottom: 0.5rem solid #673D0D;
     z-index: 300;
     /*makes it appear on top of everything else */
     transition: all 0.5s;
@@ -69,12 +69,31 @@ html {
     transition: ease-in;
                                                                                                   
 }
+/* End of Navigation */
 
 section {
-    display:inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5em;
+    justify-content: flex-start;
     background-color: aliceblue;
     margin: 15em;
-    text-size-adjust: 24px;
+    padding: 20px;
+    border: #673D0D dashed;
+
 }
 
-/* End of Navigation */
+.welcome {
+    margin-right:30px; 
+    padding: 20px;
+
+}
+
+.logo {
+    margin-left: 150px;
+    margin-right: 120px;
+   
+}
+
+
+
