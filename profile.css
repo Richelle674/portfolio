@@ -73,25 +73,31 @@ html {
 
 section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0.5em;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-gap: 0em;
     justify-content: flex-start;
     background-color: aliceblue;
-    margin: 15em;
-    padding: 20px;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 10px;
     border: #673D0D dashed;
 
 }
 
 .welcome {
-    margin-right:30px; 
     padding: 20px;
-
 }
 
 .logo {
-    margin-left: 150px;
-    margin-right: 120px;
+display: block;
+padding-top: 10em;
+padding-bottom: 0px;;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
    
 }
 
