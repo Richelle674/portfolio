@@ -69,36 +69,3 @@ html {
     transition: ease-in;
                                                                                                   
 }
-/* End of Navigation */
-
-section {
-    display: grid;
-    text-align: center;
-    grid-template-columns: 1fr;
-    grid-gap: 0em;
-    justify-content: flex-start;
-    background-color: aliceblue;
-    margin-left: 10em;
-    margin-right: 10em;
-    margin-top: 5em;
-    margin-bottom: 5em;
-    padding: 10px;
-    border: #673D0D dashed;
-
-}
-
-.welcome {
-    padding: 20px;
-}
-
-.logo {
-display: block;
-padding-top: 15em;
-padding-bottom: 0px;;
-margin-left: auto;
-margin-right: auto;
-width: 20%;
-
-}
-
-
