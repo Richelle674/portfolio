@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="showcase.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
 
@@ -21,17 +21,22 @@
                 <a href="contact.html">Contact</a>
             </div>
         </nav>
-        <!-- End of Navigation -->
+        <div class="main-content">
+            <h2>Image Modal</h2>
+            <img class="dogImage" src="images/dog.jpg" alt="Dog 1">
+            <img class="dogImage" src="images/dog2.jpg" alt=" Dog 2">
+            <img class="dogImage" src="images/dog3.jpg" alt=" Dog 3">
+            
+    
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <span class="closeMyModal">&times;</span>
+                <img class="modal-content" id="myModalImg">
+                <div id="myModalImgCaption"></div>
+            </div>
+        </div>
     </div>
-<div class="logo">
-        <img src="images/RG_LOGO.png" width="400px">
-      </div>
-    <section>
-        <h1 class="welcome"><p>
-            Hello and welcome to my portfolio. I thank you for your interest. I hope you find myself and my work worthwhile looking through. Find me in my contacts or through my <a href="https://docs.google.com/document/d/1d0TGjxzNVQLVJeSEKTA6GD1E5b-_oO_1gtK6mTqPA_U/edit?usp=sharing">resume!</a>
-        </p></h1>
-    </section>
-  
+    <script src="showcase.js"></script>
 </body>
 
 </html>

@@ -69,16 +69,3 @@ html {
     transition: ease-in;
                                                                                                   
 }
-/* End of Nav */
-
-.about {
-    display: fixed;
-    margin: 10%;
-    background-color:aliceblue;
- 
-    padding: 10px;
-}   
-.about li {
-    list-style-type: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
