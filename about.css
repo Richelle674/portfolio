@@ -75,8 +75,8 @@ html {
     display: fixed;
     margin: 10%;
     background-color:aliceblue;
- 
-    padding: 10px;
+     padding: 10px;
+     border: #673D0D dashed;
 }   
 .about li {
     list-style-type: none;
