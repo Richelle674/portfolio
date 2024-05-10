@@ -71,14 +71,36 @@ html {
 }
 /* End of Nav */
 
-.about {
-    display: fixed;
-    margin: 10%;
-    background-color:aliceblue;
-     padding: 10px;
-     border: #673D0D dashed;
-}   
 .about li {
     list-style-type: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 0em;
+    justify-content: flex-start;
+    margin-top: 10%;
+    margin-right: 50%;
+    margin-left: 10%;
+    background-color:aliceblue;
+     padding: 20px;
+     border: #673D0D dashed;
+}
+
+.portrait {
+    float: right;
+    padding: 20px;
+}
+
+.hobby li {
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 0em;
+    justify-content: flex-start;
+    margin-right: 50%;
+    margin-left: 10%;
+    background-color:aliceblue;
+     padding: 20px;
+     border: #673D0D dashed;
 }

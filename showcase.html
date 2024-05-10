@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="showcase.css" />
+    <link rel="stylesheet" href="lightbox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
 
@@ -21,22 +22,21 @@
                 <a href="contact.html">Contact</a>
             </div>
         </nav>
-        <div class="main-content">
+        <div class="gallery-title">
             <h2>Image Modal</h2>
-            <img class="dogImage" src="images/dog.jpg" alt="Dog 1">
-            <img class="dogImage" src="images/dog2.jpg" alt=" Dog 2">
-            <img class="dogImage" src="images/dog3.jpg" alt=" Dog 3">
-            
-    
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-                <span class="closeMyModal">&times;</span>
-                <img class="modal-content" id="myModalImg">
-                <div id="myModalImgCaption"></div>
+        </div>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <!---Images go in here -->
+                <!---data-lightbox = a way to group the images as a gallery -- all have to contain the same name-->
+                <a href="images/WindyArt (1).png" data-lightbox="gallery" data-title="Caption1"><img src="images/WindyArt (1).png"></a>
+                <a href="images/TeethArt.png" data-lightbox="gallery" data-title="Caption2"><img src="images/TeethArt.png"></a>
+                <a href="images/GreenpinkArt.png" data-lightbox="gallery" data-title="Caption3"><img src="images/GreenpinkArt.png"></a>
+                <!---End of Images -->
             </div>
         </div>
     </div>
-    <script src="showcase.js"></script>
+    <script src="lightbox-plus-jquery.js"></script>
 </body>
 
 </html>

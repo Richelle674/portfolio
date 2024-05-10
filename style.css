@@ -61,8 +61,7 @@ html {
 .navigation a:hover {
     padding: 1rem;
     color: red;
-      background-color: #3591d3;  
-
+    background-color: #3591d3;  
     transition-property: all;
     transition-duration: 5s;
     transition-delay: 2s; 
@@ -90,6 +89,7 @@ section {
 .welcome {
     padding: 20px;
 }
+/* Logo */
 
 .logo {
 display: block;
