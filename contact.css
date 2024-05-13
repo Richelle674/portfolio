@@ -69,3 +69,9 @@ html {
     transition: ease-in;
                                                                                                   
 }
+
+.contacts {
+    padding-top: 12em;
+    margin: 50px;
+    display: auto;
+}

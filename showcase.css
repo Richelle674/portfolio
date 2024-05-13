@@ -72,7 +72,6 @@ html {
 }
 
 .gallery-title {
-
   margin-left: 50px;
   padding-top: 50px;
 }
@@ -80,10 +79,11 @@ html {
 /* ---- Gallery CSS ---- */
 .gallery-wrapper {
 width: 100%;
-  min-height: 100vh;
+  min-height: 69vh;
   display: flex;
   justify-content: center;
   padding:50px 8%;
+  
 }
 
 /* what you edit to change your gallery grid layout */
@@ -91,6 +91,7 @@ width: 100%;
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 grid-gap: 30px;
+
 }
 
 .gallery img {
