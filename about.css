@@ -88,11 +88,6 @@ html {
      
 }
 
-.portrait {
-    float: right;
-    padding: 20px;
-}
-
 .hobby li {
     list-style-type: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -106,4 +101,12 @@ html {
     background-color:aliceblue;
      padding: 20px;
      border: #673D0D dashed;
+}
+
+.picture {
+    float: right;
+    margin-right: 200px;
+    border: #673D0D dashed;
+    background-color: #cf3a3a;
+
 }
