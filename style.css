@@ -79,7 +79,7 @@ section {
     background-color: aliceblue;
     margin-left: 10em;
     margin-right: 10em;
-    margin-top: 5em;
+    margin-top: 10em;
     margin-bottom: 5em;
     padding: 10px;
     border: #673D0D dashed;
@@ -99,6 +99,15 @@ padding-bottom: 0px;;
 margin-left: auto;
 margin-right: auto;
 width: 25%;
+background-color: rgb(255, 255, 154);
+
+transition-property: translate(); 
+transition-duration: 3s;
+transition-delay: 1s;
 }
 
+.logo:hover {
+    transform: rotate(1080deg);
+    
+}
 
