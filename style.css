@@ -83,7 +83,13 @@ section {
     margin-bottom: 5em;
     padding: 10px;
     border: #673D0D dashed;
+    color:#673D0D;
+  
 
+}
+
+a {
+    color:#3591d3;
 }
 
 .welcome {
@@ -94,16 +100,17 @@ section {
 
 .logo {
 display: block;
-padding-top: 18em;
+padding-top: 20em;
 padding-bottom: 0px;;
 margin-left: auto;
 margin-right: auto;
 width: 25%;
 background-color: rgb(255, 255, 154);
 
-transition-property: translate(); 
+transition-property: translate() repeat; 
 transition-duration: 3s;
-transition-delay: 1s;
+transition-delay: 0.5s;
+
 }
 
 .logo:hover {

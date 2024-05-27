@@ -103,7 +103,28 @@ html {
      border: #673D0D dashed;
 }
 
+.link li{
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    display: grid inline-block;
+    grid-template-columns: 1fr;
+    row-gap: 0em;
+    justify-content: flex-start;
+    margin-right: 50%;
+    margin-left: 10%;
+    background-color:aliceblue;
+     padding: 20px;
+     border: #673D0D dashed;
+     
+}
+   
 
+.link a {
+    color: #2A76AC;
+    text-decoration: none;
+    
+}
 
 .picture {
     float: right;
@@ -112,3 +133,5 @@ html {
     background-color: #cf3a3a;
 
 }
+
+
