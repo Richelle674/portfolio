@@ -78,7 +78,7 @@ html {
 
 /* ---- Gallery CSS ---- */
 .gallery-wrapper {
-width: 100%;
+  width: 100%;
   min-height: 69vh;
   display: flex;
   justify-content: center;
@@ -96,6 +96,24 @@ grid-gap: 30px;
 
 .gallery img {
 width:100%;
+}
+
+.gallery2-title {
+  margin-left: 50px;
+}
+
+.gallery2 {
+  width: 100%;
+  min-height: 69vh;
+  display: inline-block;
+  padding-top: 50px;
+  margin-left: 50px;
+}
+
+.insta {
+  display: inline-block;
+  margin-left: 50px;
+  
 }
 
 
